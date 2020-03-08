@@ -28,7 +28,7 @@ print(all_common)
 #     bb.append(random.randint(0,20))
 
 # Extras: 2
-print([lista for lista in b if lista in a])()
+print([lista for lista in b if lista in a])
 
 
 
