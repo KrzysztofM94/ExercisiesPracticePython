@@ -5,7 +5,7 @@ import random
 
 
 class ExeTen:
-    a = [1, 2, 3, 4, 5, 6]
+    a = [1, 2, 3, 4]
     b = [3, 4, 1, 2, 6, 5]
     new_list = []
 
@@ -40,6 +40,16 @@ class ExeTen:
                 self.new_list.append(j)
         print(self.new_list)
 
+    def good_answer(self):
+        # a = random.sample(range(1, 30), 12)
+        # b = random.sample(range(1, 30), 16)
+        a = [0, 1, 2]
+        b = [2, 1, 0,2,2,2,3,3,1,1,0,0]
+
+        print(set(b))
+        result = [i for i in set(b) if i in a]
+        print(result)
+
     # def test(self):
     #
     #     abc = [1, 4, 2]
@@ -73,7 +83,8 @@ def menu():
     # exe.test_1()
     # exe.fill_lists()
     # exe.test()
-    exe.fill_new_list()
+    # exe.fill_new_list()
+    exe.good_answer()
 
 
 menu()
