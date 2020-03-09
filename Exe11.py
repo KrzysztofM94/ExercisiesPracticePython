@@ -3,7 +3,7 @@ class Exe11:
     def get_integer(self, help_text="Give me a number: ") -> int:
         return int(input(help_text))
 
-    def text_no_prime(self, number):
+    def text_not_prime(self, number):
         print("{} not is a prime.".format(number))
         self.is_prime()
 
