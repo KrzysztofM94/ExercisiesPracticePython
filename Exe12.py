@@ -1,13 +1,12 @@
 a = [5, 10, 15, 20, 25]
 
+
 class Exe12:
-    def take_num(self,list):
+    def take_num(self, list):
         return list[0], list[-1]
 
 
-
-
-#class Exe12:
+# class Exe12:
 #     list_num = []
 #
 #     def take_many_num(self) -> []:

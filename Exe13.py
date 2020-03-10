@@ -17,7 +17,8 @@ class Exe13:
                 n_2 = n_1
                 n_1 = fib_num
 
-    def fib_text(self):
+    def fib_text(self,bla):
+        print(bla)
         self.fib(self.size_fib())
 
     def size_fib(self) -> int:
@@ -38,7 +39,7 @@ class Exe13:
 
 def menu():
     exe_13 = Exe13()
-    exe_13.fib_text()
+    exe_13.fib_text(13)
 
 
 menu()
